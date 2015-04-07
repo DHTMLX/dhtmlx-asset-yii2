@@ -3,6 +3,7 @@
 namespace DHTMLX\Asset;
 
 use yii\web\AssetBundle;
+use yii\web\View;
 
 /**
  * Asset bundle for the DHTMLX library.
@@ -16,5 +17,5 @@ class DHTMLXAsset extends AssetBundle
     public $js = [
         'dhtmlx.js'
     ];
-    public $jsOptions = ['position' => 1]; //Script should be in head
+    public $jsOptions = ['position' => View::POS_HEAD]; //Script should be in head
 }
