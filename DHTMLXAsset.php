@@ -10,7 +10,7 @@ use yii\web\View;
  */
 class DHTMLXAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/dhtmlx/codebase';
+    public $sourcePath = '@bower/dhtmlx';
     public $css = [
         'dhtmlx.css'
     ];
